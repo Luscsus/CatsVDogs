@@ -1,0 +1,362 @@
+* {
+    background-color: #5CDB95;
+    box-sizing: border-box;
+}
+
+/* Desktop */
+@media only screen and (min-width: 992px) {
+
+    .EndCard {
+        background-color: #379683;
+        height: 300px;
+        display: none;
+        margin: auto;
+        width: 70%;
+        position: relative;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .EndTitle {
+        font-size: 50px;
+        color: #EDF5E1;
+        background-color: #379683;
+        font-family: 'Raleway',sans-serif;
+    }
+    
+    .EndExplanation {
+        font-size: 30px;
+        color: #EDF5E1;
+        background-color: #379683;
+        font-family: 'Raleway',sans-serif;
+    }
+
+    .DogImage {
+        width: 500px;
+        height: 500px;
+        position: absolute;
+        top: 250px;
+        bottom: 0px;
+        right: 300px;
+    }
+    
+    .CatImage {
+        width: 500px;
+        height: 500px;
+        position: absolute;
+        top: 250px;
+        bottom: 0px;
+        left: 300px;
+    }
+
+    .CatButton {
+        background-color: #05386B; 
+        border: none;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        position: absolute;
+        left: 450px;
+        top: 800px;
+        width: 200px;
+        height: 75px;
+        color: #EDF5E1;
+        font-family: 'Raleway',sans-serif;
+    }
+
+    .DogButton {
+        background-color: #05386B; 
+        border: none;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        position: absolute;
+        left: 1275px;
+        top: 800px;
+        width: 200px;
+        height: 75px;
+        color: #EDF5E1;
+        font-family: 'Raleway',sans-serif;
+    }
+
+    .SkipButton {
+        text-align: center;
+        font-size: 16px;
+        position: absolute;
+        left: 950px;
+        top: 800px;
+        color: #05386B;
+        font-family: 'Raleway',sans-serif;
+    }
+
+    .Title {
+        font-size: 60px;
+        position: absolute;
+        left: 450px;
+        top: 75px;
+        color: #EDF5E1;
+        font-family: 'Raleway',sans-serif;
+    }
+    
+    .explanation {
+        left: 550px;
+        top: 170px;
+        color: #EDF5E1;
+        font-family: 'Raleway',sans-serif;
+        position: absolute;
+        font-size: 25px;
+    }
+    
+    .Countdown {
+        left: 910px;
+        top: 225px;
+        color: #EDF5E1;
+        font-family: 'Raleway',sans-serif;
+        position: absolute;
+        font-size: 50px;
+    }
+
+    .loaderCat {
+        border: 16px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 16px solid #3498db;
+        width: 60px;
+        height: 60px;
+        -webkit-animation: spin 2s linear infinite; /* Safari */
+        animation: spin 2s linear infinite;
+        position: absolute;
+        left: 500px;
+        top: 450px;
+    }
+    
+    /* Safari */
+    @-webkit-keyframes spin {
+        0% { -webkit-transform: rotate(0deg); }
+        100% { -webkit-transform: rotate(360deg); }
+    }
+      
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+    
+    .loaderDog {
+        border: 16px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 16px solid #3498db;
+        width: 60px;
+        height: 60px;
+        -webkit-animation: spin 2s linear infinite; /* Safari */
+        animation: spin 2s linear infinite;
+        position: absolute;
+        left: 1300px;
+        top: 450px;
+    }
+    
+    /* Safari */
+    @-webkit-keyframes spin {
+        0% { -webkit-transform: rotate(0deg); }
+        100% { -webkit-transform: rotate(360deg); }
+    }
+      
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+
+    .EndCard {
+        background-color: #379683;
+        width: 95%;
+        height: 500px;
+        display: none;
+        margin: auto;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        text-align: center;
+    }
+    
+    .EndTitle {
+        font-size: 50px;
+        color: #EDF5E1;
+        background-color: #379683;
+        font-family: 'Raleway',sans-serif;
+    }
+    
+    .EndExplanation {
+        font-size: 30px;
+        color: #EDF5E1;
+        background-color: #379683;
+        font-family: 'Raleway',sans-serif;
+    }
+
+    .DogImage {
+        position: absolute;
+        height: 250px;
+        width: 49%;
+        margin-bottom: 5px;
+        right: 0px;
+        top: 550px;
+    }
+
+    .CatImage {
+        position: absolute;
+        width: 49%;
+        height: 250px;
+        margin-bottom: 5px;
+        left:0px;
+        top: 550px;
+    }
+
+    .CatButton {
+        background-color: #05386B; 
+        border: none;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        position: absolute;
+        left: 35px;
+        top: 475px;
+        width: 100px;
+        height: 50px;
+        color: #EDF5E1;
+        font-family: 'Raleway',sans-serif;
+    }
+
+    .DogButton {
+        background-color: #05386B; 
+        border: none;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        position: absolute;
+        right: 35px;
+        top: 475px;
+        width: 100px;
+        height: 50px;
+        color: #EDF5E1;
+        font-family: 'Raleway',sans-serif;
+    }
+
+    .SkipButton {
+        font-size: 16px;
+        text-align: center;
+        color: #05386B;
+        font-family: 'Raleway',sans-serif;
+        position: absolute;
+        top: 475px;
+        left: 175px;
+    }
+
+    .Title {
+        font-size: 60px;
+        text-align: center;
+        color: #EDF5E1;
+        font-family: 'Raleway',sans-serif;
+    }
+    
+    .explanation {
+        text-align: center;
+        color: #EDF5E1;
+        font-family: 'Raleway',sans-serif;
+        font-size: 25px;
+    }
+    
+    .Countdown {
+        color: #EDF5E1;
+        font-family: 'Raleway',sans-serif;
+        font-size: 50px;
+        position: absolute;
+        top: 330px;
+        left: 140px;
+    }
+
+    .loaderCat {
+        border: 16px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 16px solid #3498db;
+        width: 60px;
+        height: 60px;
+        -webkit-animation: spin 2s linear infinite; /* Safari */
+        animation: spin 2s linear infinite;
+        position: absolute;
+        left: 500px;
+        top: 450px;
+    }
+    
+    /* Safari */
+    @-webkit-keyframes spin {
+        0% { -webkit-transform: rotate(0deg); }
+        100% { -webkit-transform: rotate(360deg); }
+    }
+      
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+    
+    .loaderDog {
+        border: 16px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 16px solid #3498db;
+        width: 60px;
+        height: 60px;
+        -webkit-animation: spin 2s linear infinite; /* Safari */
+        animation: spin 2s linear infinite;
+        position: absolute;
+        left: 1300px;
+        top: 450px;
+    }
+    
+    /* Safari */
+    @-webkit-keyframes spin {
+        0% { -webkit-transform: rotate(0deg); }
+        100% { -webkit-transform: rotate(360deg); }
+    }
+      
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+
+}
+
+.CatButton:hover {
+    background-color: #379683; 
+    color: rgb(0, 0, 0);
+}
+
+.DogButton:hover {
+    background-color: #379683; 
+    color: rgb(0, 0, 0);
+}
+
+.SkipButton:hover {
+    color: rgb(255, 255, 255);
+}
+
